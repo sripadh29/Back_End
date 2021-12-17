@@ -13,8 +13,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories("com.students.repository")
 @ComponentScan(basePackages = "com.students.controller, com.students.service")
 public class StudentApplication {
+	
 	public static void main(String[] args) {
 		SpringApplication.run(StudentApplication.class, args);
 	}
+
 	
 }
